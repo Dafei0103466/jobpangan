@@ -1,0 +1,20 @@
+#保证脚本健状性
+elements:
+  search_input_text:
+    element:
+      - id: search_input_text
+        os: android
+      - id: search_edit
+        os: ios
+      - xpath: search_input_text
+        os: android
+        version: 4.4
+###功能拆分
+methods:
+  login:
+    steps:
+      - id: user
+      - id: pwd
+  findpwd:
+    steps:
+      - id: a
